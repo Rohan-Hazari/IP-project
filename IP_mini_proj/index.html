@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Education Website</title>
+
+    <!--Iconsout cdn-->
+
+    <link rel="stylesheet"
+        href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--GOOGLE FONTS (MONTSERRAT)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Swiper js -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <style>
+        body {
+            background-image: url(./images/bg-texture.png);
+        }
+    </style>
+    <!-- AOS -->
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+
+</head>
+
+<body>
+    <nav data-aos="fade-down" data-aos-duration="1000">
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4>UARA</h4>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i
+                    class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!--=====================END OF NAVBAR==============================-->
+
+
+    <header>
+        <div class="container header_container">
+            <div data-aos="fade-right" data-aos-duration="1000"
+                data-aos-easing="ease-in-quad" class="header_left">
+                <h1>Grow your skills to advance your career path</h1>
+                <p>
+                    Start your journey to great career path with this being your
+                    first step.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div data-aos="fade-left" data-aos-duration="800"
+                class="header_right">
+                <div class="header_right-images">
+                    <img src="./images/header.svg">
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--============================END OF HEADER=========================-->
+
+
+    <section data-aos="fade-up" data-aos-duration="1000" class="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1>Categories</h1>
+                <p>
+                    We at UARA give a wide categories of courses. You can learn
+                    Music, Latest technologies, Business,Finanace,Marketing ,etc
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories_right">
+                <article class="category">
+                    <span class="category_icon"><i
+                            class="uil uil-bitcoin-circle"></i></span>
+                    <h5>Blockchain</h5>
+                    <p>Learn Blockchain technology from Indusrty experts.Learn
+                        why and ho blockchain is the furture</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i
+                            class="uil uil-palette"></i></span>
+                    <h5>Graphic Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias, cum?</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i
+                            class="uil uil-usd-circle"></i></span>
+                    <h5>Finance</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias, cum?</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i
+                            class="uil uil-megaphone"></i></span>
+                    <h5>Marketing</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias, cum?</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i
+                            class="uil uil-music"></i></span>
+                    <h5>Music</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias, cum?</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i
+                            class="uil uil-puzzle-piece"></i></span>
+                    <h5>Business</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias, cum?</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--================================================ END OF CATEGORIES================================================================-->
+
+
+    <section data-aos="fade-up" data-aos-duration="1000" class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/course1.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Design</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Obcaecati nesciunt aliquam quos eligendi error
+                        quibusdam sit.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn
+                        More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/course2.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Smart Home Website Design</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Obcaecati nesciunt aliquam quos eligendi error
+                        quibusdam sit.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn
+                        More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/course3.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Dashboard UI Design</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Obcaecati nesciunt aliquam quos eligendi error
+                        quibusdam sit.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn
+                        More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!--================================================ END OF Courses ================================================================-->
+
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores, sint! Cum eaque exercitationem aut tempore,
+                        molestiae saepe quas ab, deleniti corrupti facilis
+                        possimus? Nam unde illum impedit accusantium culpa
+                        sequi!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>Will I have lifetime access to courses I purchase?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores, sint! Cum eaque exercitationem aut tempore,
+                        molestiae saepe quas ab, deleniti corrupti facilis
+                        possimus? Nam unde illum impedit accusantium culpa
+                        sequi!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>Do I get a certificate for every course I complete?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores, sint! Cum eaque exercitationem aut tempore,
+                        molestiae saepe quas ab, deleniti corrupti facilis
+                        possimus? Nam unde illum impedit accusantium culpa
+                        sequi!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>What are the requirements to start?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores, sint! Cum eaque exercitationem aut tempore,
+                        molestiae saepe quas ab, deleniti corrupti facilis
+                        possimus? Nam unde illum impedit accusantium culpa
+                        sequi!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>Can I audit the courses?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores, sint! Cum eaque exercitationem aut tempore,
+                        molestiae saepe quas ab, deleniti corrupti facilis
+                        possimus? Nam unde illum impedit accusantium culpa
+                        sequi!
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question-answer">
+                    <h4>Is there a student discount?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores, sint! Cum eaque exercitationem aut tempore,
+                        molestiae saepe quas ab, deleniti corrupti facilis
+                        possimus? Nam unde illum impedit accusantium culpa
+                        sequi!
+                    </p>
+                </div>
+            </article>
+
+
+
+        </div>
+
+    </section>
+    <!--================================================ END OF FAQs ================================================================-->
+
+    <!-- ============================ Need any help ================== -->
+    <div data-aos="fade-left" data-aos-anchor=".faqs" data-aos-duration="500"
+        data-aos-anchor-placement="top-center" class="nah">
+        <a href="./contact.html">
+            <div class="nah-container">
+
+                <p class="nah-title">Need any Help?</p>
+                <div class="nah-icon">
+                    <a href="./contact.html">
+                        <i class="fa-solid fa-headphones"></i>
+                    </a>
+                </div>
+            </div>
+        </a>
+        <div class="close-btn"><i class="fa-sharp fa-solid fa-circle-xmark"></i>
+        </div>
+    </div>
+
+
+
+
+    <section data-aos="fade-up" data-aos-duration="1000"
+        class="container testimonial_container swiper mySwiper">
+        <h2>Student's Testimonial</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg" alt="Avatar1">
+
+                </div>
+                <div class="testimonial_info">
+                    <h5>Diana Ayi</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        The courses on UARA are very detailed and easy to
+                        understand. Definitely doing more courses from this
+                        platform
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar2.jpg" alt="Avatar1">
+
+                </div>
+                <div class="testimonial_info">
+                    <h5>Ernest Achiever</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        No other platform has courses that come close to that of
+                        UARA.The way they teach is excellent
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg" alt="Avatar1">
+
+                </div>
+                <div class="testimonial_info">
+                    <h5>Jon Snow</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Maxime, ipsam fuga. Unde magnam odio, accusantium
+                        ex suscipit aliquam ea minima?
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg" alt="Avatar1">
+
+                </div>
+                <div class="testimonial_info">
+                    <h5>Sansa Stark</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Maxime, ipsam fuga. Unde magnam odio, accusantium
+                        ex suscipit aliquam ea minima?
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.jpg" alt="Avatar1">
+
+                </div>
+                <div class="testimonial_info">
+                    <h5> Arya Lannister</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Maxime, ipsam fuga. Unde magnam odio, accusantium
+                        ex suscipit aliquam ea minima?
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div style="position:initiall;" class="swiper-pagination"></div>
+
+    </section>
+
+
+
+    <!--=============================== FOOTER=================================== -->
+
+
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo">
+                    <h4>CorSira</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestiae, vel</p>
+            </div>
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+
+                </ul>
+            </div>
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 9998989899</p>
+                    <p>somthing@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./main.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
